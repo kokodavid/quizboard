@@ -27,5 +27,5 @@ the person doing the test receives immediate result on finishing the test.If the
 ## Support and contact details
 To get in touch with the developer call 0770057240 or Email:kingkgdave@gmail.com link on Github pages https://github.com/kokodavid/quizboard
 ### License
-MIT licences
+MIT licences used in the project
 Copyright (c) 2019 Kokocityweb ltd
