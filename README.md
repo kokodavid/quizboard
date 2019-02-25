@@ -3,7 +3,7 @@
 #### By David Mochoge
 ## Description
 The Quiz board contains 10 questions.Out of the 10 questions each question has 10 marks and a total score of 100.
-the person doing the test receives immediate result on finishing the test.
+the person doing the test receives immediate result on finishing the test.If the person doing the test gets below 50 he/she will have to retake the test.
 
 ## Setup/Installation Requirements
 * The application requires installation of javascript
