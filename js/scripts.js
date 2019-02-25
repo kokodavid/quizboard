@@ -12,9 +12,15 @@ $(document).ready(function() {
 		var value9 = parseInt($("[name=question9]:checked").val());
 		var value10 = parseInt($("[name=question10]:checked").val());
     var result = parseInt(value1 + value2 + value3 + value4 + value5 + value6 + value7 + value8 + value9 + value10);
-    if (result >50) {
-      $("outout").text("CONGTATULATIONS" + "Your score is:" + result);
-    }else{
+    if (result > 80) {
+      $("#output").text("Your score is: " + result +     "congratulations. You passed excelllently!");
+    }
+
+  else if(result >= 50 && result <=80) {
+    $("#output").text("Your score is: " + result +     "you have fairly passed!");
+  }
+
+  else { (result < 50)
       		$("#output").text("Your score is : " + result + " Retake the test");
     }
 	});
