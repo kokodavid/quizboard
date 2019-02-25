@@ -8,12 +8,12 @@ h1{
 }
 body {
 	font-family: 'Lato', sans-serif;
-	background-image: url(quizboard/images/tt.jpg);
+	background-image: url("../images/tt.jpg");
 	background-size: contain;
 }
 
-#button {
-	background: black;
+.btn  {
+	background: red;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
@@ -25,4 +25,8 @@ body {
 .card{
   color: white;
   background-color: black;
+  background-image: url(quizboard/images/tt.jpg);
+}
+#mc {
+	display: inline;
 }
