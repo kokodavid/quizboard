@@ -3,16 +3,17 @@ h1{
 	color: blue
 }
 .jumbotron{
-	background-color:#36E338;
+  color: white;
+	background-color:black;
 }
 body {
 	font-family: 'Lato', sans-serif;
-	background-color: red;
+	background-image: url(quizboard/images/tt.jpg);
 	background-size: contain;
 }
 
 #button {
-	background: green;
+	background: black;
 	border: none;
 	border-radius: 5px;
 	padding: 10px;
@@ -20,4 +21,8 @@ body {
 	font-size: 16px;
 	transition-duration: .5s;
 	margin-top: 15px;
+}
+.card{
+  color: white;
+  background-color: black;
 }
